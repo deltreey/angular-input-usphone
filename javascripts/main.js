@@ -1,6 +1,6 @@
 'use strict';
-var app = angular.module('app', [ 'input-usd' ]);
+var app = angular.module('app', [ 'input-usphone' ]);
 
 app.controller('MainCtrl', function ($scope) {
-	$scope.money = 86753.09;
+	$scope.number = 5558675309;
 });
